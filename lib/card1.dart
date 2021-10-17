@@ -17,13 +17,18 @@ class Card1 extends StatelessWidget {
         constraints: const BoxConstraints.expand(width: 350, height: 450),
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/img1.jfif'),
+            image: AssetImage('assets/img1.png'),
             fit: BoxFit.cover,
           ),
           borderRadius: BorderRadius.all(Radius.circular(10.0)),
         ),
         child: Stack(
           children: [
+            Container(
+              decoration: BoxDecoration(
+                  color: Colors.black.withOpacity(0.2),
+                  borderRadius: const BorderRadius.all(Radius.circular(10.0))),
+            ),
             Text(
               category,
               style: FooderlichTheme.darkTextTheme.bodyText1,

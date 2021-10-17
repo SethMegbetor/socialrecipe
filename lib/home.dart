@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:socialrecipeapp/card3.dart';
 
 import 'card1.dart';
 import 'card2.dart';
+import 'card3.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -16,7 +18,7 @@ class _HomeState extends State<Home> {
   static List<Widget> pages = <Widget>[
     const Card1(),
     const Card2(),
-    Container(color: Colors.green),
+    const Card3()
   ];
   void _onItemTapped(int index) {
     setState(() {
