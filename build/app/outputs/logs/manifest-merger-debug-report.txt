@@ -1,15 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-41:12
-INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-41:12
-INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-41:12
-INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-41:12
-MERGED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-41:12
+ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-52:12
+INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-52:12
+INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-52:12
+INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-52:12
+MERGED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-52:12
+MERGED from [:shared_preferences] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
 MERGED from [:path_provider] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:webview_flutter_android] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\webview_flutter_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.webkit:webkit:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\cbbb6921b2521959953b0c781fe5c304\webkit-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\eb26273f8f7192460456ce62b9bdf9ef\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\d9536c14ffde0b7289f12ba6def6bfa4\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\bc28a09d8d2212ffd5788fe6c1853326\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.1.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\ca6b214160bd0909b103aa12202ef51c\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
@@ -28,16 +32,18 @@ INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\s
 		INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-41:12
+		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-52:12
 		INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-41:12
+		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:1-52:12
 		INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:1:11-69
 application
-ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:3:4-40:19
+ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:3:4-51:19
+MERGED from [:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.core:core:1.1.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
@@ -49,7 +55,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\sp
 	android:icon
 		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:5:9-43
 activity#com.example.recipes.MainActivity
-ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:6:9-34:20
+ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:6:9-45:20
 	android:launchMode
 		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:8:13-43
 	android:hardwareAccelerated
@@ -84,26 +90,60 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:32:17-76
 	android:name
 		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:32:27-74
-meta-data#flutterEmbedding
-ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:37:9-39:33
+meta-data#flutter_deeplinking_enabled
+ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:36:13-90
 	android:value
-		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:39:13-30
+		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:36:67-87
 	android:name
-		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:38:13-44
+		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:36:24-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:raywenderlich.com+data:scheme:fooderlich
+ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:37:13-44:29
+action#android.intent.action.VIEW
+ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:39:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:40:17-78
+	android:name
+		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:40:27-75
+data
+ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:41:17-43:56
+	android:host
+		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:43:21-53
+	android:scheme
+		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:42:21-48
+meta-data#flutterEmbedding
+ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:48:9-50:33
+	android:value
+		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:50:13-30
+	android:name
+		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:49:13-44
 uses-sdk
 INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml
+MERGED from [:shared_preferences] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\webview_flutter_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\webview_flutter_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\cbbb6921b2521959953b0c781fe5c304\webkit-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\cbbb6921b2521959953b0c781fe5c304\webkit-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\eb26273f8f7192460456ce62b9bdf9ef\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\eb26273f8f7192460456ce62b9bdf9ef\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\d9536c14ffde0b7289f12ba6def6bfa4\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\d9536c14ffde0b7289f12ba6def6bfa4\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\bc28a09d8d2212ffd5788fe6c1853326\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\bc28a09d8d2212ffd5788fe6c1853326\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.1.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -134,3 +174,11 @@ uses-permission#android.permission.INTERNET
 ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\debug\AndroidManifest.xml:6:5-66
 	android:name
 		ADDED from D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\debug\AndroidManifest.xml:6:22-64
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74

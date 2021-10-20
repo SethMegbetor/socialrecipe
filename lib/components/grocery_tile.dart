@@ -1,4 +1,3 @@
-// TODO Implement this library.
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
@@ -6,14 +5,10 @@ import 'package:intl/intl.dart';
 import '../models/grocery_item.dart';
 
 class GroceryTile extends StatelessWidget {
-  // 1
   final GroceryItem item;
-  // 2
   final Function(bool?)? onComplete;
-  // 3
   final TextDecoration textDecoration;
 
-  // 4
   GroceryTile({
     Key? key,
     required this.item,
@@ -29,26 +24,23 @@ class GroceryTile extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          // 1
           Row(
             children: [
-              // 2
-              Container(width: 5.0, color: item.color),
-              // 3
+              Container(
+                width: 5.0,
+                color: item.color,
+              ),
               const SizedBox(width: 16.0),
-              // 4
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // 5
                   Text(
                     item.name,
                     style: GoogleFonts.lato(
-                      decoration: textDecoration,
-                      fontSize: 21.0,
-                      fontWeight: FontWeight.bold,
-                    ),
+                        decoration: textDecoration,
+                        fontSize: 21.0,
+                        fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 4.0),
                   buildDate(),
@@ -58,10 +50,8 @@ class GroceryTile extends StatelessWidget {
               ),
             ],
           ),
-          // 6
           Row(
             children: [
-              // 7
               Text(
                 item.quantity.toString(),
                 style: GoogleFonts.lato(
@@ -69,7 +59,6 @@ class GroceryTile extends StatelessWidget {
                   fontSize: 21,
                 ),
               ),
-              // 8
               buildCheckbox()
             ],
           )
@@ -117,9 +106,7 @@ class GroceryTile extends StatelessWidget {
 
   Widget buildCheckbox() {
     return Checkbox(
-      // 1
       value: item.isComplete,
-      // 2
       onChanged: onComplete,
     );
   }

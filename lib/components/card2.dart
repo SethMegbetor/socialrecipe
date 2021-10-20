@@ -1,56 +1,66 @@
 import 'package:flutter/material.dart';
-import 'package:recipes/models/explore_recipe.dart';
-// import 'package:socialrecipeapp/main.dart';
-import 'author_card.dart';
+
 import '../fooderlich_theme.dart';
+import '../models/models.dart';
+import 'author_card.dart';
 
 class Card2 extends StatelessWidget {
-  const Card2({Key? key, required ExploreRecipe recipe}) : super(key: key);
+  final ExploreRecipe recipe;
+
+  const Card2({
+    Key? key,
+    required this.recipe,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-  
-        constraints: const BoxConstraints.expand(width: 350, height: 450),
-        decoration: const BoxDecoration(
+        constraints: const BoxConstraints.expand(
+          width: 350,
+          height: 450,
+        ),
+        decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/img2.png'),
+            image: AssetImage(recipe.backgroundImage),
             fit: BoxFit.cover,
           ),
-          borderRadius: BorderRadius.all(Radius.circular(10.0)),
+          borderRadius: const BorderRadius.all(
+            Radius.circular(10.0),
+          ),
         ),
         child: Column(
           children: [
-            const AuthorCard(
-              authorName: 'Spider Hussle',
-              title: 'Akple masterchef',
-              imageProvider: AssetImage('assets/chef1.png'),
+            AuthorCard(
+              authorName: recipe.authorName,
+              title: recipe.role,
+              imageProvider: AssetImage(recipe.profileImage),
             ),
             Expanded(
-                child: Stack(
-              children: [
-                Positioned(
-                  bottom: 16,
-                  right: 16,
-                  child: Text(
-                    'Recipe',
-                    style: FooderlichTheme.darkTextTheme.headline1,
-                  ),
-                ),
-                Positioned(
-                  bottom: 70,
-                  left: 16,
-                  child: RotatedBox(
-                    quarterTurns: 3,
+              child: Stack(
+                children: [
+                  Positioned(
+                    bottom: 16,
+                    right: 16,
                     child: Text(
-                      'Smothies',
-                      style: FooderlichTheme.darkTextTheme.headline1,
+                      recipe.title,
+                      style: FooderlichTheme.lightTextTheme.headline1,
                     ),
                   ),
-                )
-              ],
-            ))
+                  Positioned(
+                    bottom: 70,
+                    left: 16,
+                    child: RotatedBox(
+                      quarterTurns: 3,
+                      child: Text(
+                        recipe.subtitle,
+                        style: FooderlichTheme.lightTextTheme.headline1,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),

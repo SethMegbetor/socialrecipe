@@ -12,6 +12,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../../../../../Installation-Folder/development/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.5/android" />
+            <option value="$PROJECT_DIR$/../../../../../Installation-Folder/development/sdks/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter_android-2.0.15/android" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
           </set>

@@ -5,7 +5,7 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
+8        android:minSdkVersion="19"
 9        android:targetSdkVersion="30" />
 10    <!--
 11         Flutter needs it to communicate with the running application
@@ -16,7 +16,7 @@
 14-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\debug\AndroidManifest.xml:6:22-64
 15
 16    <application
-16-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:3:4-40:19
+16-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:3:4-51:19
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 17-->[androidx.core:core:1.1.0] C:\Users\spiderHussle\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:24:18-86
 18        android:debuggable="true"
@@ -25,7 +25,7 @@
 20        android:label="recipes" >
 20-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:4:9-32
 21        <activity
-21-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:6:9-34:20
+21-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:6:9-45:20
 22            android:name="com.example.recipes.MainActivity"
 22-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:7:13-41
 23            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -75,17 +75,55 @@
 52-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:32:17-76
 52-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:32:27-74
 53            </intent-filter>
-54        </activity>
-55        <!--
-56             Don't delete the meta-data below.
-57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-58        -->
-59        <meta-data
-59-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:37:9-39:33
-60            android:name="flutterEmbedding"
-60-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:38:13-44
-61            android:value="2" />
-61-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:39:13-30
-62    </application>
-63
-64</manifest>
+54
+55            <!-- Deep Linking -->
+56            <meta-data
+56-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:36:13-90
+57                android:name="flutter_deeplinking_enabled"
+57-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:36:24-66
+58                android:value="true" />
+58-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:36:67-87
+59
+60            <intent-filter>
+60-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:37:13-44:29
+61                <action android:name="android.intent.action.VIEW" />
+61-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:38:17-69
+61-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:38:25-66
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:39:17-76
+63-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:39:27-73
+64                <category android:name="android.intent.category.BROWSABLE" />
+64-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:40:17-78
+64-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:40:27-75
+65
+66                <data
+66-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:41:17-43:56
+67                    android:host="raywenderlich.com"
+67-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:43:21-53
+68                    android:scheme="fooderlich" />
+68-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:42:21-48
+69            </intent-filter>
+70        </activity>
+71        <!--
+72             Don't delete the meta-data below.
+73             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+74        -->
+75        <meta-data
+75-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:48:9-50:33
+76            android:name="flutterEmbedding"
+76-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:49:13-44
+77            android:value="2" />
+77-->D:\restart\flutter\flutterapprentice\socialrecipeapp\android\app\src\main\AndroidManifest.xml:50:13-30
+78
+79        <activity
+79-->[:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+80            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+80-->[:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+81            android:exported="false"
+81-->[:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+82            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+82-->[:url_launcher] D:\restart\flutter\flutterapprentice\socialrecipeapp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+83    </application>
+84
+85</manifest>

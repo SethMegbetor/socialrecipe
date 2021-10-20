@@ -7,7 +7,7 @@ class CircleImage extends StatelessWidget {
     this.imageRadius = 20,
   }) : super(key: key);
 
-  final double? imageRadius;
+  final double imageRadius;
   final ImageProvider? imageProvider;
 
   @override
@@ -16,7 +16,7 @@ class CircleImage extends StatelessWidget {
       backgroundColor: Colors.white,
       radius: imageRadius,
       child: CircleAvatar(
-        radius: imageRadius! - 5,
+        radius: imageRadius - 5,
         backgroundImage: imageProvider,
       ),
     );

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:recipes/components/components.dart';
 
 import '../api/mock_fooderlich_service.dart';
 import '../components/components.dart';
@@ -21,17 +20,13 @@ class ExploreScreen extends StatelessWidget {
             children: [
               TodayRecipeListView(recipes: snapshot.data?.todayRecipes ?? []),
               const SizedBox(height: 16),
-              FriendPostListView(
-                friendPosts: snapshot.data?.friendPosts ?? [],
-              ),
-              // Container(
-              //   height: 400,
-              //   color: Colors.green,
-              // )
+              FriendPostListView(friendPosts: snapshot.data?.friendPosts ?? []),
             ],
           );
         } else {
-          return const Center(child: CircularProgressIndicator());
+          return const Center(
+            child: CircularProgressIndicator(),
+          );
         }
       },
     );
